@@ -47,7 +47,6 @@ class MyHouse extends House {
 }
 
 const key = new Key();
-console.log(key.getSignature());
 
 const house = new MyHouse(key);
 const person = new Person(key);
